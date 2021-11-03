@@ -15,8 +15,8 @@ leftWristY = 0;
 
 function preload()
 {
-	song1 = loadSound("music.mp3");
-	song2 = loadSound("music2.mp3");
+	song1 = loadSound("on&on.mp3");
+	song2 = loadSound("alone.mp3");
 }
 
 function setup() {
@@ -52,7 +52,7 @@ function draw() {
 		if(song1_status == false)
 		{
 			song1.play();
-			document.getElementById("song_name").innerHTML = "Playing - Harry Potter Theme Song"
+			document.getElementById("song_name").innerHTML = "Playing - On and On"
 		}
 	}
 
@@ -65,7 +65,7 @@ function draw() {
 		if(song2_status == false)
 		{
 			song2.play();
-			document.getElementById("song_name").innerHTML = "Playing - Peter Pan Song"
+			document.getElementById("song_name").innerHTML = "Playing - Alone"
 		}
 	}
 
